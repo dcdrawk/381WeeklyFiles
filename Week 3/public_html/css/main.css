@@ -1,0 +1,119 @@
+/* Please skip to the bottom and work down there */
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 10px; 
+	color: black;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 2rem; 
+}
+
+h2 a {
+	font-style: italic;
+}
+
+img {
+	height: auto; 
+	width: auto;
+	max-width: 100%;
+	border: 1px solid #888888; 
+}
+
+p, ul, ol {
+	font-size: 0.8rem; 
+	max-width: 40rem; 
+	line-height: 1rem; 
+}
+
+ul li {
+	list-style-type: circle;
+}
+
+li.no-bullet {
+	list-style-type: none;
+}
+
+figure {
+	margin-left: 0; 
+}
+
+figcaption {
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
+nav {
+	font-size: 0.8rem;
+}
+
+a {
+	color: #007FFF; 
+}
+
+a:active, a:hover {
+	color: #888888; 
+	text-decoration: none;
+}
+
+a:visited {
+	color: #8968CD;
+}
+
+form {
+	font-size: 0.7rem;
+	text-transform: uppercase;
+}
+
+form label {
+	display: block; 
+	margin-top: 1rem;
+}
+
+form input, form textarea {
+	display: block;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.7rem;
+	padding: 0.25rem;
+	border: 0.1rem solid #999; 
+}
+
+form input:hover, form textarea:hover {
+	border-color: orange;
+}
+
+form textarea {
+	width: 10rem;
+	height: 6rem;
+}
+
+
+
+/* This is where you should work this week */
+
+figure {
+	float:left;
+}
+
+#puppies {
+
+}
+
+.clear-float{
+	clear: both;
+}
+
+#comments{
+	display:block;
+	background-color: yellow;
+	position:fixed;
+	top:1rem;
+	right:1rem;
+	padding:0px;
+}

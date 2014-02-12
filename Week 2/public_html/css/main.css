@@ -1,0 +1,79 @@
+/* Our first style sheet */
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size:10px;
+}
+
+img {
+	height:auto;
+	width:auto;
+	max-width:100%;	
+}
+
+h1 {
+	font-size:4rem; /* 4*10px = 40px */
+}
+
+a {
+	font-size:1rem;
+}
+
+a:hover, a:focus, a:active {
+	color: gray;
+	text-decoration: none;
+}
+
+a:visited {
+	color:red;
+}
+
+ul li {
+	list-style-type: circle;
+}
+
+ul.no-bullet li {
+	list-style-type: none;
+}
+
+p, ul, ol {
+	font-size:1rem;
+	line-height:1.5rem;
+}
+
+#kittens {
+	max-width:50rem;
+	background-color:gray;
+}
+
+figure{
+	margin-left: 0;
+}
+
+form {
+	font-size: 0.8rem;
+	text-transform:uppercase;
+}
+
+form label {
+	display: block;
+	margin-top: 1rem;
+}
+
+form input, form textarea {
+	display:block;
+	font-family: Helvetica, impact, sans-serif;
+	font-size:0.7rem;
+	padding:0.25rem;
+	border: 0.1rem solid #999;
+}
+
+form input:hover, form textarea:hover{
+	border-color:orange;
+	background-color:blue;
+}
+
+strong {
+	font-style:italic;
+	font-weight: normal;
+}

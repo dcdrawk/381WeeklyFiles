@@ -1,0 +1,114 @@
+
+/* 
+	Please do not edit below this line for the tutorial ----- 
+	Afterwards, well, have fun.
+*/
+
+article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	border: 1px solid blue;
+}
+
+
+nav a, nav a:visited {
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+nav a.green {
+	background-color: green;
+}
+
+
+nav a.orange {
+	background-color: orange;
+}
+
+
+nav a:hover, nav a:active, nav a:focus {
+	background-color: gray;
+	color: white;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em; 
+	color: black;
+	padding: 1em;
+}
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5rem; 
+	font-weight: 100;
+}
+
+
+h2 {
+	font-weight: normal;
+	font-size: 2rem; 
+}
+
+
+h2 a {
+	font-style: italic;
+}
+
+
+p, ul, ol {
+	font-size: 1rem;
+	line-height: 1.3em; 
+}
+
+
+img {
+	height: auto; 
+	width: auto;
+	max-width: 100%;
+	border: 1px solid #888888; 
+}
+
+
+figure {
+	margin-left: 0;
+}
+
+
+figcaption {
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
+
+a {
+	color: #007FFF; 
+}
+
+
+a:visited {
+	color: #8968CD;
+}
+
+
+a:active, a:hover {
+	color: #888888; 
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'GistLight';
+	src:	url('webfonts/29D04D_0_0.eot');
+	src:	url('webfonts/29D04D_0_0.eot?#iefix') format('embedded-opentype'),
+			url('webfonts/29D04D_0_0.woff') format('woff'),
+			url('webfonts/29D04D_0_0.ttf') format('truetype'),
+			url('webfonts/29D04D_0_0.svg#wf') format('svg');
+}

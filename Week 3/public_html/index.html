@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <!-- This section helps define what a browser needs to know about our webpage -->
+  <head>
+
+    <!-- This defines what character set (language/fonts) by this webpage -->
+    <meta charset="utf-8">
+    <link href="css/main.css" rel="stylesheet">
+
+    <title>My Most Hideous Page Ever</title>
+
+  </head>
+
+
+  <!-- The body section is where we place all of our public-intended content -->
+  <body>
+
+    <!-- Remember that the H tags only go up to 6 (ie. h1, h2 ... h6) -->
+    <h1>My Most Hideous Page Ever</h1>
+
+    <p>
+      <strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. 
+    </p>
+
+    <nav>
+      <a href="#kittens">To the kittens</a>
+      <a href="#puppies">To the puppies</a>
+      <a href="#comments">I want to comment</a>
+    </nav>
+
+
+
+    <!-- Sections help to define the structure of our site, which is ultimately, up to us -->
+    <section id="kittens">
+      <h2>
+        <!-- Here we are creating a link in our header-tag -->
+        <a href="http://placekitten.com">Kittens are da cutest!</a>
+      </h2>
+
+      <!-- Figure helps associate image with caption -->
+      <figure>
+
+        <!-- Because images don't wrap other content (they are simply placed) we don't have to close an image tag -->
+        <img src="http://placekitten.com/200/300" height="300" width="200" alt="A kitten">
+        <figcaption>It's a bundle of cute, cuddly, death!</figcaption>
+
+      </figure>
+
+      <ol>
+        <li><em>First reason why kittens are death</em></li>
+        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+      </ol>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
+    </section>
+
+
+    <section id="puppies" class="clear-float">
+      <h2>
+        <!-- The 'target' attribute can specify we want to open this in a new window -->
+        <a href="http://placedog.com" target="_blank">But puppies are cuter!</a>
+      </h2>
+
+      <!-- Figures do not always need captions; only images that warrant further explanation should include a caption -->
+      <figure>
+        <img height="300" width="500" src="http://placedog.com/500/300" alt="A puppy">
+        <figcaption>So much cuter, and less deadly</figcaption>
+      </figure>
+
+      <ul>
+        <li><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em></li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+      </ul>
+
+      <p>Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien.</p>
+    </section>
+
+
+    <!-- All valid forms must use a 'method' (for submitting the form), and an 'action' (which submits the form) -->
+    <form method="post" action="#" id="comments">
+
+      <!-- Labels are associated with 'ids', NOT with 'name' attributes --> 
+      <label for="form-name">Name:</label>
+      <!-- Input elements should have a 'type' defined to help with processing -->
+      <input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+
+      <label for="form-subject">Subject:</label>
+      <input type="text" id="form-subject" name="form-subject" placeholder="A title for your comment">
+      
+      <label for="form-comment">Comment:</label>
+      <!-- Textareas allow for multi-line text input instead of a single line -->
+      <textarea id="form-comment" name="form-comment" placeholder="Please place comment here"></textarea>
+
+      <input type="submit" value="Submit your comment">
+
+    </form>
+
+
+
+
+  </body>
+</html>
