@@ -6,10 +6,6 @@
 	text-align: center;
 }
 
-.col-1of2 {
-	width: 50%;
-}
-
 .grid:after {
 	content: "";
 	display: block;
@@ -22,13 +18,18 @@
 	box-sizing: border-box;
 }
 
+.col-1of2 {
+	width: 50%;
+}
+
 @media (max-width:800px) {
 	.col-1of2 {
 		width: 100%;
 	}
 }
 
-/* Defububg styles of our 3 column grid */
+/* Debugging styles of our 3 column grid */
+
 .col-1of3 {
 	width: 33.333%;
 }
