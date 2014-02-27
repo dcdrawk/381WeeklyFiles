@@ -1,0 +1,52 @@
+
+/* 
+	Please do not edit below this line for the tutorial ----- 
+	Afterwards, well, have fun.
+*/
+
+[class*='col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; 
+}
+
+
+.col-1of6 {
+	width: 16.667%;
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+
+	.col-1of6 {
+		width: 33.333%;
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.col-1of6 {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 350px) {
+
+	.col-1of6 {
+		width: 100%;
+	}
+
+}
